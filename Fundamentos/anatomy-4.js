@@ -13,3 +13,4 @@
 (()=> {
     console.log('Ola arrow function invocada imediatamente')
 })();
+(()=> console.log ('ola arrow function reduzida'))();
