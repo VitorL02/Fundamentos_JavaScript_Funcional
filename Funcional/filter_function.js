@@ -1,3 +1,5 @@
+// Utilizada para filtar uma determinada condição em objetos/arrays
+
 numeros = [ 0,1,2,3,4,5,6,7,-1,-2,-3]
 
 const getNumerosPositivos = numeros.filter ((el) => {
