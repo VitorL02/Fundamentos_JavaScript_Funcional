@@ -24,3 +24,6 @@ function somar(a,b){
 
 const resultado = somar (20,30)
 console.log(resultado)
+
+const resultado = somar (20,3,5,8,9) 
+console.log(resultado)
