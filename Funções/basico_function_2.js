@@ -47,3 +47,5 @@ console.log(potenciaDe8(8)) // passa o parametro da função anonima de retorno
 
  const potenciaDe3 = potencia_segundaRepr(5)(4) // outra representação sem utilizar uma const de variaveis
  console.log(potenciaDe3)
+
+ 
