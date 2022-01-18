@@ -18,7 +18,7 @@ fs.readFile(caminho, (err,conteudo) => {console.log(conteudo.toString() ) } ) //
 console.log('Fim...')
 
 console.log('Inicio Sync')
- const conteudo =  fs.readSync(caminho) 
+ const conteudo =  fs.readFileSync(caminho) 
 console.log(conteudo.toString())
 //Utilizando esse metodo readSync somente quando o arquivo for completamente lido ele completa a execução do codigo e assim finaliza mostrando o console.log(fim)
 console.log('Fim Sync')
