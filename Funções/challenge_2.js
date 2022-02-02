@@ -32,6 +32,7 @@ const media = carrinho.filter(el =>el.fragil)
         media : novoTotal / novaQtde
      }
     },{qtde:0,total:0,media:0})
+    
 
 
 
